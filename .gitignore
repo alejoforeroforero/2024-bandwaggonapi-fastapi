@@ -1,0 +1,59 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.env
+venv/
+.env/
+.pipenv/
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Migrations (if using ORM like Alembic or Django ORM)
+migrations/
+
+# Jupyter Notebooks checkpoints (if using notebooks for testing)
+.ipynb_checkpoints/
+
+# Static files (optional, if generated dynamically)
+staticfiles/
+media/
+
+# Coverage reports and testing
+htmlcov/
+.coverage
+.tox/
+.cache/
+pytest_cache/
+
+# Dependencies
+*.egg-info/
+dist/
+build/
+
+# Docker and container files (if using Docker)
+*.env.docker
+.dockerignore
+docker-compose.override.yml
+
+# Database files (SQLite or other local development databases)
+*.db
+*.sqlite3
+
+# FastAPI-specific generated files (if any custom files are produced)
+openapi.json
