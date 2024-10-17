@@ -9,7 +9,7 @@ from .database import engine, get_db
 
 models.Base.metadata.create_all(bind=engine)
 
-app = FastAPI()
+app = FastAPI(root_path="/api")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=config('ALLOWED_ORIGINS', cast=lambda v: [s.strip() for s in v.split(',')]),
